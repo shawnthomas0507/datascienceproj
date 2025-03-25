@@ -1,6 +1,6 @@
 from src.datascience.constants import * 
 from src.datascience.utils.common import read_yaml,create_directories
-from src.datascience.entity.config_entity import (DataIngestionconfig)
+from src.datascience.entity.config_entity import (DataIngestionconfig, DataValidationconfig)
 
 class ConfigurationManager:
     def __init__(self,config_filepath=CONFIG_FILE_PATH,params_filepath=PARAMS_FILE_PATH,schema_filepath=SCHEMA_FILE_PATH):
@@ -24,3 +24,17 @@ class ConfigurationManager:
         )
         
         return data_ingestion_config
+    
+    def get_data_validation_config(self) -> DataValidationconfig:
+        config=self.config.data_validation
+        schema=self.schema.COLUMNS
+        create_directories([config.root_dir])
+
+        data_validation_config=DataValidationconfig(
+            root_dir=config.root_dir,
+            STATUS_FILE=config.STATUS_FILE,
+            unzip_data_dir= config.unzip_data_dir,
+            all_schema=schema
+        )
+        
+        return data_validation_config

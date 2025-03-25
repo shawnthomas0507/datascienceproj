@@ -3,8 +3,9 @@ from src.datascience import logger
 import zipfile
 import os
 from src.datascience.entity.config_entity import (DataIngestionconfig)
-
 import requests
+
+
 class DataIngestion:
     def __init__(self,config:DataIngestionconfig):
         self.config=config
