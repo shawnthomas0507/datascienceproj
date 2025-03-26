@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wine Quality Prediction Result</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f8f8;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .result-box {
+      background-color: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+    .result-box h2 {
+      color: #4CAF50;
+      margin-bottom: 20px;
+    }
+    .prediction {
+      font-size: 24px;
+      color: #333;
+      font-weight: bold;
+    }
+    .back-link {
+      margin-top: 20px;
+      display: inline-block;
+      text-decoration: none;
+      color: #4CAF50;
+      font-weight: bold;
+    }
+    .back-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="result-box">
+    <h2>Wine Quality Prediction</h2>
+    <div class="prediction">
+      Your predicted wine quality is: <strong><h1>{{prediction}}</h1></strong>
+    </div>
+    <a href="index.html" class="back-link">← Go Back to Form</a>
+  </div>
+</body>
+</html>
