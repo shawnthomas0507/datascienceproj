@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/shawn/OneDrive/Desktop/Krish%20Naik%20MLOPS/endtoend1/datascienceproj/mlruns/0/8d2b1434f02a44c3b00a90239a678e56/artifacts
+end_time: 1742946694646
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8d2b1434f02a44c3b00a90239a678e56
+run_name: gregarious-ram-612
+run_uuid: 8d2b1434f02a44c3b00a90239a678e56
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742946690620
+status: 3
+tags: []
+user_id: shawn

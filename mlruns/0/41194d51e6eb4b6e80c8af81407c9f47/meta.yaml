@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/shawn/OneDrive/Desktop/Krish%20Naik%20MLOPS/endtoend1/datascienceproj/mlruns/0/41194d51e6eb4b6e80c8af81407c9f47/artifacts
+end_time: 1742946432737
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 41194d51e6eb4b6e80c8af81407c9f47
+run_name: persistent-sloth-319
+run_uuid: 41194d51e6eb4b6e80c8af81407c9f47
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742946428468
+status: 3
+tags: []
+user_id: shawn

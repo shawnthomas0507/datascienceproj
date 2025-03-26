@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/shawn/OneDrive/Desktop/Krish%20Naik%20MLOPS/endtoend1/datascienceproj/mlruns/0/e36ed2eaa6804a65b14a8cb617e38c6b/artifacts
+end_time: 1742947238929
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e36ed2eaa6804a65b14a8cb617e38c6b
+run_name: luminous-elk-976
+run_uuid: e36ed2eaa6804a65b14a8cb617e38c6b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742947233359
+status: 3
+tags: []
+user_id: shawn
